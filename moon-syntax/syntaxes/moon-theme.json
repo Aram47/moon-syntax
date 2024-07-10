@@ -13,12 +13,6 @@
 			}
 		},
 		{
-			"scope": "keyword.control.moon.booleans",
-			"settings": {
-				"foreground": "#ff0000"
-			}
-		},
-		{
 			"scope": "keyword.control.moon",
 			"settings": {
 				"foreground": "#c586c0"
