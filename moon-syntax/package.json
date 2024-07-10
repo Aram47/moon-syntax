@@ -20,7 +20,12 @@
       "language": "moon",
       "scopeName": "source.moon",
       "path": "./syntaxes/moon.tmLanguage.json"
-    }]
+    }],
+		"themes": [{
+			"label": "Moon Theme",
+			"uiTheme": "vs-dark",
+			"path": "./syntaxes/moon-theme.json"
+		}]
   },
   "repository": {
     "type": "git",

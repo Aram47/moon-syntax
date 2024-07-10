@@ -15,8 +15,16 @@
 	"repository": {
 	  "keywords": {
 		"patterns": [{
+			"name": "keyword.control.moon.return",
+			"match": "\\b(return)\\b"
+		},
+		{
+			"name": "keyword.control.moon.const",
+			"match": "\\b(&&||||^|||&)\\b"
+		},
+		{
 		  "name": "keyword.control.moon",
-		  "match": "\\b(const|class|if|else|func|return|while|for|extends|true|false)\\b"
+		  "match": "\\b(const|class|if|else|func|while|for|extends|true|false)\\b"
 		}]
 	  },
 	  "strings": {

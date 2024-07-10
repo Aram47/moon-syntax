@@ -1,0 +1,58 @@
+{
+	"name": "Moon Theme",
+	"type": "dark",
+	"colors": {
+		"editor.foreground": "#ffffff",
+		"editor.background": "#1e1e1e"
+	},
+	"tokenColors": [
+		{
+			"scope": "keyword.control.moon.return",
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+		{
+			"scope": "keyword.control.moon.&&",
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+        {
+			"scope": "keyword.control.moon.||",
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+        {
+			"scope": "keyword.control.moon.&",
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+        {
+			"scope": "keyword.control.moon.|",
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+        {
+			"scope": "keyword.control.moon.^",
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+		{
+			"scope": "keyword.control.moon",
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": "string.quoted.double.moon",
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		}
+	]
+}
