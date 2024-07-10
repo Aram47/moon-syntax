@@ -20,7 +20,7 @@
 		},
 		{
 		  "name": "keyword.control.moon",
-		  "match": "\\b(const|class|if|else|func|while|for|extends|true|false|&&||||^|||&)\\b"
+		  "match": "\\b(const|class|if|else|func|while|for|extends|true|false)\\b"
 		}]
 	  },
 	  "strings": {
