@@ -19,7 +19,7 @@
 			"match": "\\b(return)\\b"
 		},
 		{
-			"name": "keyword.control.moon.const",
+			"name": "keyword.control.moon.booleans",
 			"match": "\\b(&&||||^|||&)\\b"
 		},
 		{

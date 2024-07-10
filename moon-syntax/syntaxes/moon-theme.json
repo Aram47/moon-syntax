@@ -13,31 +13,7 @@
 			}
 		},
 		{
-			"scope": "keyword.control.moon.&&",
-			"settings": {
-				"foreground": "#ff0000"
-			}
-		},
-        {
-			"scope": "keyword.control.moon.||",
-			"settings": {
-				"foreground": "#ff0000"
-			}
-		},
-        {
-			"scope": "keyword.control.moon.&",
-			"settings": {
-				"foreground": "#ff0000"
-			}
-		},
-        {
-			"scope": "keyword.control.moon.|",
-			"settings": {
-				"foreground": "#ff0000"
-			}
-		},
-        {
-			"scope": "keyword.control.moon.^",
+			"scope": "keyword.control.moon.booleans",
 			"settings": {
 				"foreground": "#ff0000"
 			}
