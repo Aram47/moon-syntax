@@ -1,0 +1,29 @@
+{
+  "name": "moon-syntax",
+  "displayName": "moon-syntax",
+  "description": "Syntax highlighting for Moon language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "moon",
+      "aliases": ["Moon", "moon"],
+      "extensions": [".mn"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "moon",
+      "scopeName": "source.moon",
+      "path": "./syntaxes/moon.tmLanguage.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-repo-name"
+  }
+}

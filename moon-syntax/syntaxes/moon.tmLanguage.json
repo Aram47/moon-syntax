@@ -1,0 +1,66 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Moon",
+	"patterns": [
+	  {
+		"include": "#keywords"
+	  },
+	  {
+		"include": "#strings"
+	  },
+	  {
+		"include": "#comments"
+	  }
+	],
+	"repository": {
+	  "keywords": {
+		"patterns": [{
+		  "name": "keyword.control.moon",
+		  "match": "\\b(const|class|if|else|func|return|while|for|extends)\\b"
+		}]
+	  },
+	  "strings": {
+		"name": "string.quoted.double.moon",
+		"begin": "\"",
+		"end": "\"",
+		"patterns": [
+		  {
+			"name": "constant.character.escape.moon",
+			"match": "\\\\."
+		  }
+		]
+	  },
+	  "comments": {
+		"patterns": [
+		  {
+			"name": "comment.line.double-slash.moon",
+			"begin": "//",
+			"beginCaptures": {
+			  "0": {
+				"name": "punctuation.definition.comment.moon"
+			  }
+			},
+			"end": "$",
+			"name": "comment.line.double-slash.moon"
+		  },
+		  {
+			"name": "comment.block.moon",
+			"begin": "/\\*",
+			"beginCaptures": {
+			  "0": {
+				"name": "punctuation.definition.comment.begin.moon"
+			  }
+			},
+			"end": "\\*/",
+			"endCaptures": {
+			  "0": {
+				"name": "punctuation.definition.comment.end.moon"
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"scopeName": "source.moon"
+  }
+  
